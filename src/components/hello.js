@@ -2,6 +2,10 @@ import React from "react";
 
 class Hello extends React.Component {
   render() {
-    // To Do
+    return (
+      <div>Hello from hello.js</div>
+    )
   }
 }
+
+export default Hello;
