@@ -10,4 +10,4 @@ const root = <div>
   <Hello firstName="Garette" lastName="Jambon" />
   </div>;
 ReactDOM.render(root, document.getElementById('root'));
-// registerServiceWorker();
+registerServiceWorker();
