@@ -14,10 +14,17 @@ class App extends Component {
       "lat": 48.885707,
       "lng": 2.343543
     };
-    
+
     return (
-      <div>
-        <Flat flat={flat} />
+      <div className="app">
+        <div className="main">
+          <div className="search">
+          </div>
+          <div className="flats">
+          </div>
+        </div>
+        <div className="map">
+        </div>
       </div>
     );
   }
