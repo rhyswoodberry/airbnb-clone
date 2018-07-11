@@ -14,6 +14,7 @@ class App extends Component {
       "lat": 48.885707,
       "lng": 2.343543
     };
+    
     return (
       <div>
         <Flat flat={flat} />
