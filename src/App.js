@@ -40,10 +40,11 @@ class App extends Component {
           </div>
         </div>
         <div className="map">
-            <GoogleMapReact
-              center={center}
-              zoom={11}
-            />
+          <GoogleMapReact center={center} zoom={14}>
+            {this.state.flats.map((flat) => {
+              return <Marker lat={flat.lat} lng={flat} text={flat.price} />
+            })}
+          </GoogleMapReact>
         </div>
       </div>
     );
